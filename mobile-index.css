@@ -1,0 +1,365 @@
+body {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: arial;
+    background-color: lightgrey;
+    
+    
+}
+
+#wrapper {
+    
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320px;
+    min-height: 480px;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    
+    margin: 0 auto;
+    padding: 0;
+    
+    width: 100%;
+    height: 1750px;
+    background-image: url("../img/field.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+header nav {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 5em;
+    background-color: darkgrey;
+    opacity: 0.7;
+    text-align: center;
+    position: fixed;
+}
+
+header nav a {
+    
+    margin: 0 auto;
+    padding: 0;
+    font-family: century gothic;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    
+    color: #403F3D;
+    font-size: 2.5em;
+}
+
+header nav ul li a:hover {
+    
+    color: #F35095;
+}
+
+img {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 65%;
+   float: right;
+    margin-top: 15em;
+}
+
+#aside {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 1500px;
+    
+    
+}
+
+#books {
+    
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 25em;
+    width: 80%;
+    height: 300px;
+    background-image: url("img/R&W_Wedding_Photos_B&W-471.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#text {
+    
+     margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 400px;
+    text-align: center;
+    
+}
+
+#text h1 {
+    
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: crimson;
+}
+
+#text p {
+    
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 1.2em;
+    
+    
+}
+
+section {
+    
+     margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 1200px;
+    
+}
+
+#info-about {
+    
+    margin: 0 auto;
+    padding-top: 4em;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#info-about a {
+    
+    text-decoration: underline;
+    color: blue;
+    font-size: 1em;
+    font-family: Century Gothic;
+    font-weight: 200;
+}
+
+
+#info-about h2 {
+    
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 2.5em;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: crimson;
+}
+
+#info-about h1 {
+    
+    margin-left: 5%;
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 1.5em;
+    color: crimson;
+    
+}
+
+#info-about p {
+    
+    margin-left: 10%;
+    font-size: 1.2em;
+    font-family: Century Gothic;
+    font-weight: 200;
+    
+}
+
+
+#img {
+    
+   margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    overflow: hidden; 
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    
+}
+    
+#div1  {
+    
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto ;
+    padding: 0;
+    display: block;
+    float: left;
+    text-align: left;   
+       
+}
+
+
+
+#div2 {
+    
+   max-width: 100%;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto ; 
+    padding: 0%;
+    text-align: left;
+    display: block;
+    float: right;
+    overflow-y: hiden;
+    
+}    
+
+#img h1 {
+    
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 6em;
+    margin-left: 2em;
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: crimson;
+}
+
+#img ul {
+    
+    margin-left: 2em;
+}
+
+#img ul li {
+    
+    display: inline;
+}
+
+#img a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#img2 {
+    
+    margin-left: 5em;
+}
+
+#img img {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 12%;
+    margin-left: 1em;
+    margin-top: 3em;
+    float: left;
+    
+    
+   
+   
+}
+
+#contact {
+    
+    margin: 0 auto;
+    padding: ;
+    max-width: 100%;
+    width: 100%;
+    height: 40em;
+    text-align: left;
+    overflow: hidden;
+}
+
+#contact-image {
+    
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 5em;
+    max-width: 100%;
+    width: 50%;
+    height: 80%;
+    float: left;
+    text-align: left;
+    background-image: url("../img/postbox.jpg");
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#contact-info {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: left;
+    
+    
+}
+
+#info {
+    
+    margin: 0 auto;
+    padding:0;
+    margin-top: 15%;
+    max-width: 100%;
+    width: 80%;
+    height: 100%;
+    float left;
+    
+}
+
+#info h1 {
+    
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: crimson;
+}
+
+#info p {
+    
+    font-family: Century Gothic;
+    font-weight: 200;
+    font-size: 1.5em;
+    
+}
+
+#insta {
+    
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 5em;
+    max-width: 100%;
+    width: 10%;
+}
+
+#mail {
+    
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 5em;
+    max-width: 100%;
+    width: 10%;
+    
+}
